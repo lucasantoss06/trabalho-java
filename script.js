@@ -1,13 +1,13 @@
 
 function exemploMedia(){
 
-    let qtdNumeros_s =  prompt ("Seja bem vindo!, digite a quantidade de numeros que você deseja fazer a média : ");
+    let qtdNumeros_s =  prompt ("Seja bem vindo! Digite a quantidade de números que você deseja fazer a média : ");
     let qtdNumeros_i = parseInt(qtdNumeros_s);
 
     let soma = 0;
 
     for (let count = 0; count < qtdNumeros_i ; count++){
-        let numeros_s = prompt("Digite aqui o numero :");
+        let numeros_s = prompt("Digite aqui o número :");
         let x1 = parseInt(numeros_s);
         soma += x1;
     }
